@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@mipmap/jungle">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_naturesounds"
+        android:id="@+id/splashScreenImageView"
+        android:paddingTop="50dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:baselineAligned="true"
+        tools:ignore="MissingConstraints"
+        android:layout_alignParentBottom="true">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/pbSplash"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:background="#6b207cee"
+            android:outlineAmbientShadowColor="@color/black"/>
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

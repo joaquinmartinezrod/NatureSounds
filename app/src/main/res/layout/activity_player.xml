@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/NatureSounds"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Player">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:src="@mipmap/fire"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:layout_margin="0dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/imText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/campfire"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="52dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:baselineAligned="true"
+            android:gravity="center"
+            tools:ignore="MissingConstraints">
+
+            <ImageButton
+                android:id="@+id/imback"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/transparetWhite"
+                android:src="@mipmap/backicon" />
+
+            <ImageButton
+                android:id="@+id/imbplaypause"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/transparetWhite"
+                android:src="@mipmap/playicon" />
+
+            <ImageButton
+                android:id="@+id/imbnext"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/transparetWhite"
+                android:src="@mipmap/nexticon" />
+
+        </LinearLayout>
+
+        <com.nightonke.boommenu.BoomMenuButton
+            android:id="@+id/bmb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bmb_buttonEnum="textInsideCircle"
+            app:bmb_buttonPlaceEnum="buttonPlace_sc_3_1"
+            app:bmb_normalColor="@color/transparentBlack"
+            app:bmb_piecePlaceEnum="piecePlace_dot_3_1" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

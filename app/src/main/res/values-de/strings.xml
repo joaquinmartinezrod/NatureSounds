@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Natur klingt</string>
+    <string name="campfire">Lagerfeuer</string>
+    <string name="waterfall">Wassarfall</string>
+    <string name="river">Fluss</string>
+    <string name="jungle">Urwald</string>
+    <string name="rain">Regen</string>
+    <string name="ocean">Ozean</string>
+</resources>

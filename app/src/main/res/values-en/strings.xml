@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nature Sounds -->
+    <string name="app_name">Nature Sounds</string>
+    <string name="campfire">Campfire</string>
+    <string name="waterfall">Waterfall</string>
+    <string name="river">River</string>
+    <string name="jungle">Jungle</string>
+    <string name="rain">Rain</string>
+    <string name="ocean">Ocean</string>
+
+</resources>

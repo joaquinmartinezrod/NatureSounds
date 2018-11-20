@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Nature Sounds -->
+    <string name="app_name">Nature Sounds</string>
+    <string name="campfire">Fogata</string>
+    <string name="waterfall">Cascada</string>
+    <string name="river">Rio</string>
+    <string name="jungle">Jungla</string>
+    <string name="rain">Lluvia</string>
+    <string name="ocean">Oceano</string>
+
+
+    <!-- Intenciones-->
+    <string name="FaceBook" translatable="false">Facebook</string>
+
+
+
+</resources>
